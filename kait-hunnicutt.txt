@@ -1,0 +1,77 @@
+https://codepen.io/kaithunnicutt/full/NWROwQV
+1. What is Semantic HTML? 
+    Organizational tags that don't change the code.
+2. What is HTML used for? 
+    The structure of a website (bones of house)
+3. What is an attribute and where do we put it? 
+    an attribute in css is a selector and determines what pieces of the code will be applied.
+4. What is the h1 tag used for? How many times should I use it on a page?
+    The title or bigegest and most important piece It should only be used oonce
+5. Name two tags that have required attributes
+<a> and href & <img and src
+6. What do we put in the head of our HTML document? 
+    something we want google to pick up. also a container tag.
+7. What is an id? 
+    unique global attribute uses #
+8. What elements can I add an id to?
+    you can add css linking and styling elements
+9. How many times can I use the same id on a page? 
+    just once
+10. What is a class? 
+    a case sensitive global attribute that has space separations
+11. What elements can I add a class to? 
+    CSS and Javascript
+12. How many times can I use the same class on a page? 
+    many times
+13. How do I get my link to open in a new tab?
+    you add " target="_blank" " at the end of the a tag
+14. What is the alt attribute in the image tag used for? 
+    The alt attribute is used as something for search engines to pick up (google)
+15. How do I reference an id?
+    with a #
+16. What is the difference between a section and a div
+    a section defines something that is grouped within like a body of text whereas div is only a header unless specified by a class tag. Divs do not convey meaning while section does.
+17. What is CSS used for? 
+    styling the webpage or house. The drapes
+18. How to we select an element? Example - every h2 on the page
+    h2{something like background-color: green;}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    AN ID can only be used once while classes can be used over and over. For example an Id over the address would be unique but a class could be used for paragraphs of text you want to be the same (body)
+20. How do we select classes in CSS?
+    using a period
+21. How do we select a p element with a single class of “human””?
+    .human > p{  :   ;} using a child selector tag
+22. What is a parent child selector? When would this be useful? 
+    a parent child selector is nesting tags within an HTML page. This is useful when breaking the page into portions and cleaning the code up
+23. How do you select all liks within a div with the class of sidebar?
+ .sidebar{   :  ;}
+24. What is a pseudo selector?
+    a special class that specializies an add on. :hover is a pseudo selector so is :visited
+25. What do we use the change the spacing between lines?
+    we use line-height:and can adjust the space between them here;
+26. What do we use to change the spacing between letters?
+    we use letter-spacing: and can decided how much space we want here;
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    we use text-transform:and choose between, capitalize, uppercase, or lowercase here;
+28. How do I add a 1px border around my div that is dotted and black?
+    div{
+        border: dotted, 1px, black;
+    }
+29. How do I select everything on the page? 
+    using the universal selector which is * in css
+30. How do I write a comment in CSS?
+    /* comment here*/
+31. How do I find out what file I am in, when I am using the command line? 
+    pwd = print working directory
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm and because there is no warning you must be careful when using it as it overrides everything
+34. Why should I use version control? 
+    when you know how to use it it is very beneficial quick and tactile compared to GUI
+35. How often should I commit to github?
+    when you make changes 
+36. What is the command we would use to push our repo up to github? 
+    git add. > wait> git commit -m "comment" > git push -u origin branch name
+37. Walk me through Lambda's git flow. 
+    fork file > copy link > cd into the correct folder > git clone paste the url > cd file-name > git checkout -b name of branch > code . > do assignment > save > git add. > git commit -m "comment" > git push -u origin branch name > compare your forked master copy to new branch and copy the pull request li
